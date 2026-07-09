@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.backup.controller.MainController">
+
+    <top>
+        <Label text="File Backup Logger"
+               style="-fx-font-size:22px; -fx-font-weight:bold; -fx-padding:15;"/>
+    </top>
+
+    <center>
+
+        <VBox spacing="15">
+
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+
+            <GridPane hgap="10" vgap="10">
+
+                <Label text="Source Folder"
+                       GridPane.rowIndex="0"
+                       GridPane.columnIndex="0"/>
+
+                <TextField fx:id="sourceField"
+                           GridPane.rowIndex="0"
+                           GridPane.columnIndex="1"/>
+
+                <Button text="Browse"
+                        onAction="#browseSource"
+                        GridPane.rowIndex="0"
+                        GridPane.columnIndex="2"/>
+
+                <Label text="Destination Folder"
+                       GridPane.rowIndex="1"
+                       GridPane.columnIndex="0"/>
+
+                <TextField fx:id="destinationField"
+                           GridPane.rowIndex="1"
+                           GridPane.columnIndex="1"/>
+
+                <Button text="Browse"
+                        onAction="#browseDestination"
+                        GridPane.rowIndex="1"
+                        GridPane.columnIndex="2"/>
+
+            </GridPane>
+
+            <CheckBox
+                    fx:id="zipCheck"
+                    text="ZIP Compression"/>
+
+            <Button
+                    text="Start Backup"
+                    onAction="#startBackup"
+                    maxWidth="Infinity"/>
+
+            <ProgressBar
+                    fx:id="progressBar"
+                    progress="0.0"/>
+
+            <Label
+                    fx:id="statusLabel"
+                    text="Ready."/>
+
+            <TextArea
+                    fx:id="logArea"
+                    editable="false"
+                    prefHeight="250"/>
+
+        </VBox>
+
+    </center>
+
+</BorderPane>
