@@ -56,7 +56,7 @@ FileBackupLogger
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/FileBackupLogger.git
+git clone https://github.com/monolut/FileBackupLogger.git
 ```
 
 ### Open the project
@@ -115,6 +115,7 @@ The log contains:
 
 ### Backup Log
 
-<img width="1810" height="1210" alt="A0762CF1-460F-4082-94C3-B8EDD04FD934" src="https://github.com/user-attachments/assets/fc3226c1-e2cb-4330-8167-756f76c88f01" />
+<img width="1790" height="1072" alt="E36EC612-E957-4EE2-A44F-E00AB62FA1A6" src="https://github.com/user-attachments/assets/b3b48215-fc9a-4a1a-a385-98130ad28ce9" />
+
 
 
