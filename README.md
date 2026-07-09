@@ -107,15 +107,14 @@ The log contains:
 
 ### Main Window
 
-
+<img width="1110" height="1186" alt="8D486D93-1C51-41FB-A3DC-4C136461B4EC" src="https://github.com/user-attachments/assets/77623407-3481-4b8a-9ce0-379b20ff3d2e" />
 
 ### Backup Completed
 
-*(Insert screenshot here)*
+<img width="1810" height="1210" alt="A0762CF1-460F-4082-94C3-B8EDD04FD934" src="https://github.com/user-attachments/assets/b43e523e-5e85-46de-b4ef-e76044ccd2f4" />
 
 ### Backup Log
 
-*(Insert screenshot here)*
+<img width="1810" height="1210" alt="A0762CF1-460F-4082-94C3-B8EDD04FD934" src="https://github.com/user-attachments/assets/fc3226c1-e2cb-4330-8167-756f76c88f01" />
 
 
-# FileBackupLogger
